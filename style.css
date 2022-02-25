@@ -55,6 +55,11 @@ a {
 
 .footer {
     background: #1F2937;
+    font-size: 18px;
+    color:#E5E7EB;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
 }
 
 .header h1 {
@@ -71,6 +76,7 @@ a {
 
 body{
     margin: 0;
+    padding: 0;
 }
 
 img{
@@ -78,7 +84,7 @@ img{
 
 }
 
-button{
+.contenedor2 button{
     background: #3882f6;
     width: 110px;
     font-weight: bold;
@@ -91,3 +97,128 @@ button{
     text-decoration: none;
     display: block;
 }
+
+.information h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bold;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+    border: 4px solid #3882F6;
+    object-fit: cover;
+}
+
+.contenedor5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#626569;
+}
+
+.contenedor6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#626569;
+}
+
+.contenedor7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#626569;
+}
+
+.contenedor8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#626569;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 40%;
+    display: block;
+}
+
+.quote b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    gap: 2%;
+    background: #3882f6;
+    align-items: center;
+    justify-content: center; 
+    justify-self: center;
+    align-self: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.product h3{
+    color: #fff;
+}
+
+.product p{
+    
+    color: rgb(212, 207, 207);
+}
+
+.product button{
+    background: #3882f6;
+    height: 35px;
+    width: 110px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Roboto', arial;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
